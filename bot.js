@@ -8,7 +8,7 @@ http.createServer((req, res) => {
 
 function createBot() {
     const bot = mineflayer.createBot({
-        host: 'dun9x.aternos.me', // <-- Bác bảo các cháu đọc cho cái địa chỉ Server rồi thay vào đây nhé
+        host: 'dun9x.aternos.me:39381', // <-- Bác bảo các cháu đọc cho cái địa chỉ Server rồi thay vào đây nhé
         port: 39381,
         username: 'BotOngNoi80Tuoi', // Tên con bot trong game
         version: false
