@@ -9,7 +9,7 @@ http.createServer((req, res) => {
 function createBot() {
     const bot = mineflayer.createBot({
         host: 'dun9x.aternos.me', // <-- Bác bảo các cháu đọc cho cái địa chỉ Server rồi thay vào đây nhé
-        port: 25565,
+        port: 39381,
         username: 'BotOngNoi80Tuoi', // Tên con bot trong game
         version: false
     });
